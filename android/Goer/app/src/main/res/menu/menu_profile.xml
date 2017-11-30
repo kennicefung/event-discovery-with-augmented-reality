@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".view.ProfileActivity">
+    <item
+        android:id="@+id/action_add_friend"
+        android:title="Add Friend"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_remove_friend"
+        android:title="Remove Friend"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_accept_friend"
+        android:title="Accept"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_reject_friend"
+        android:title="Reject"
+        app:showAsAction="always" />
+</menu>

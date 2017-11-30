@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frag_nearby_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.fragment.NearbyFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/btn_launch_AR"
+            android:layout_alignParentLeft="true"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:drawableLeft="@drawable/ic_augment_reality"
+            android:paddingBottom="5dp"
+            android:paddingLeft="14dp"
+            android:paddingRight="14dp"
+            android:paddingTop="5dp"
+            android:layout_marginTop="10px"
+            android:layout_marginLeft="10px"
+            android:text="@string/action_launch_ar"
+            android:textSize="10dp"
+            android:background="#90444444"
+            android:textColor="@color/colorWhite"/>
+
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/show_event_on_map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp"/>
+    </RelativeLayout>
+
+</FrameLayout>

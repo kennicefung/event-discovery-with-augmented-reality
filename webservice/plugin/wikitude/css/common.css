@@ -1,0 +1,51 @@
+/* position of POI-radar*/
+span.clear { clear: both; display: block; }
+.radarContainer_left {
+	position:absolute;
+	bottom:15px;
+	left:0px;
+	width:100px;
+	height:100px;
+}
+
+.radarContainer_right {
+	position:absolute;
+	top:15px;
+	right:0px;
+	width:100px;
+	height:100px;
+}
+
+.marker_idle{
+	background-color:#000;
+	color:#FFF;
+	border-color:#000;
+	border-radius:5px;
+	padding:10px;
+	height:100%;
+}
+
+.marker_idle_dist{
+	font-size: :16px;
+	font-weight: bold;
+	color:#D35E5E;
+	float: right;
+}
+
+.marker_idle_start{
+	font-size: :16px;
+	font-weight: bold;
+	float: left;
+}
+
+.marker_idle_start img{
+	margin-right: 1px;
+}
+.marker_selected{
+	background-color:#EE7674;
+	color:#FFF;
+	border-color:#EE7674;
+	border-radius:5px;
+	padding:10px;
+	height:100%;
+}

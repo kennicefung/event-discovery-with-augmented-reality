@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".view.EventDetailActivity">
+    <item android:id="@+id/action_like"
+        android:icon="@drawable/ic_heart"
+        app:showAsAction="always"
+        android:title="Like" />
+    <item android:id="@+id/action_join"
+        android:icon="@drawable/ic_attend"
+        app:showAsAction="always"
+        android:title="Join"/>
+
+    <item android:id="@+id/action_invite"
+        app:showAsAction="never"
+        android:title="Invite Friends"/>
+    <item android:id="@+id/action_cancel_event"
+        app:showAsAction="never"
+        android:title="Cancel Event"/>
+</menu>
